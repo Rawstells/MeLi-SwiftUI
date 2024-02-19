@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11232252B8304A90008CD79 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232242B8304A90008CD79 /* ProductDetailView.swift */; };
+		F11232272B83F3590008CD79 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232262B83F3590008CD79 /* Color.swift */; };
+		F11232292B83F3850008CD79 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232282B83F3850008CD79 /* Color+Hex.swift */; };
+		F112322B2B83FB260008CD79 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112322A2B83FB260008CD79 /* SplashView.swift */; };
+		F112322E2B8418A60008CD79 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112322D2B8418A60008CD79 /* WebView.swift */; };
+		F112323A2B8476340008CD79 /* ProductsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232392B8476340008CD79 /* ProductsRepository.swift */; };
+		F112323C2B8476A80008CD79 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112323B2B8476A80008CD79 /* Debouncer.swift */; };
+		F112323F2B8477A20008CD79 /* ProductsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112323D2B8477A20008CD79 /* ProductsViewModelTests.swift */; };
+		F11232402B8477A20008CD79 /* ProductsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112323E2B8477A20008CD79 /* ProductsRepositoryTests.swift */; };
 		F18181122B7EB89C00A27CE8 /* MercadoLibreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181112B7EB89C00A27CE8 /* MercadoLibreApp.swift */; };
-		F18181142B7EB89C00A27CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181132B7EB89C00A27CE8 /* ContentView.swift */; };
-		F18181162B7EB89C00A27CE8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181152B7EB89C00A27CE8 /* Item.swift */; };
 		F18181182B7EB8A000A27CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18181172B7EB8A000A27CE8 /* Assets.xcassets */; };
 		F181811B2B7EB8A000A27CE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F181811A2B7EB8A000A27CE8 /* Preview Assets.xcassets */; };
-		F18181252B7EB8A100A27CE8 /* MercadoLibreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181242B7EB8A100A27CE8 /* MercadoLibreTests.swift */; };
 		F181812F2B7EB8A100A27CE8 /* MercadoLibreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181812E2B7EB8A100A27CE8 /* MercadoLibreUITests.swift */; };
 		F18181312B7EB8A100A27CE8 /* MercadoLibreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181302B7EB8A100A27CE8 /* MercadoLibreUITestsLaunchTests.swift */; };
+		F18181422B7EBBAB00A27CE8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181412B7EBBAB00A27CE8 /* ApiManager.swift */; };
+		F18181482B7EBE9A00A27CE8 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181472B7EBE9A00A27CE8 /* ProductsView.swift */; };
+		F181814B2B7EBECE00A27CE8 /* ProductsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181814A2B7EBECE00A27CE8 /* ProductsRowView.swift */; };
+		F18181502B7EBF9C00A27CE8 /* MercadoLibreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181814F2B7EBF9C00A27CE8 /* MercadoLibreResponse.swift */; };
+		F18181522B7EBFED00A27CE8 /* ResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181512B7EBFED00A27CE8 /* ResultResponse.swift */; };
+		F18181542B7EC01E00A27CE8 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18181532B7EC01E00A27CE8 /* ProductsViewModel.swift */; };
+		F19DCFB92B8035C600689AA4 /* ApiTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DCFB82B8035C600689AA4 /* ApiTool.swift */; };
+		F19DCFBB2B80381E00689AA4 /* ProductsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DCFBA2B80381E00689AA4 /* ProductsFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +49,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F11232242B8304A90008CD79 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		F11232262B83F3590008CD79 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F11232282B83F3850008CD79 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		F112322A2B83FB260008CD79 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F112322C2B8400340008CD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F112322D2B8418A60008CD79 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F11232392B8476340008CD79 /* ProductsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRepository.swift; sourceTree = "<group>"; };
+		F112323B2B8476A80008CD79 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		F112323D2B8477A20008CD79 /* ProductsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewModelTests.swift; sourceTree = "<group>"; };
+		F112323E2B8477A20008CD79 /* ProductsRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsRepositoryTests.swift; sourceTree = "<group>"; };
 		F181810E2B7EB89C00A27CE8 /* MercadoLibre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercadoLibre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18181112B7EB89C00A27CE8 /* MercadoLibreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibreApp.swift; sourceTree = "<group>"; };
-		F18181132B7EB89C00A27CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F18181152B7EB89C00A27CE8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F18181172B7EB8A000A27CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F181811A2B7EB8A000A27CE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F18181202B7EB8A100A27CE8 /* MercadoLibreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoLibreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F18181242B7EB8A100A27CE8 /* MercadoLibreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibreTests.swift; sourceTree = "<group>"; };
 		F181812A2B7EB8A100A27CE8 /* MercadoLibreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoLibreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F181812E2B7EB8A100A27CE8 /* MercadoLibreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibreUITests.swift; sourceTree = "<group>"; };
 		F18181302B7EB8A100A27CE8 /* MercadoLibreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F18181412B7EBBAB00A27CE8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		F18181472B7EBE9A00A27CE8 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		F181814A2B7EBECE00A27CE8 /* ProductsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRowView.swift; sourceTree = "<group>"; };
+		F181814F2B7EBF9C00A27CE8 /* MercadoLibreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibreResponse.swift; sourceTree = "<group>"; };
+		F18181512B7EBFED00A27CE8 /* ResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultResponse.swift; sourceTree = "<group>"; };
+		F18181532B7EC01E00A27CE8 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		F19DCFB82B8035C600689AA4 /* ApiTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTool.swift; sourceTree = "<group>"; };
+		F19DCFBA2B80381E00689AA4 /* ProductsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +102,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F11232342B84759D0008CD79 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				F11232262B83F3590008CD79 /* Color.swift */,
+				F11232282B83F3850008CD79 /* Color+Hex.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		F11232352B8475B00008CD79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F18181172B7EB8A000A27CE8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F11232362B8475BD0008CD79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F112322C2B8400340008CD79 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F11232372B84760D0008CD79 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F19DCFBA2B80381E00689AA4 /* ProductsFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		F11232382B8476190008CD79 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F11232392B8476340008CD79 /* ProductsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		F18181052B7EB89C00A27CE8 = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +166,12 @@
 		F18181102B7EB89C00A27CE8 /* MercadoLibre */ = {
 			isa = PBXGroup;
 			children = (
-				F18181112B7EB89C00A27CE8 /* MercadoLibreApp.swift */,
-				F18181132B7EB89C00A27CE8 /* ContentView.swift */,
-				F18181152B7EB89C00A27CE8 /* Item.swift */,
-				F18181172B7EB8A000A27CE8 /* Assets.xcassets */,
+				F11232352B8475B00008CD79 /* Resources */,
+				F11232342B84759D0008CD79 /* CommonUI */,
+				F19DCFB72B80358F00689AA4 /* CommonUtilities */,
+				F181813F2B7EBB1A00A27CE8 /* Framework */,
+				F18181432B7EBC0E00A27CE8 /* Main */,
+				F18181442B7EBC5700A27CE8 /* Sections */,
 				F18181192B7EB8A000A27CE8 /* Preview Content */,
 			);
 			path = MercadoLibre;
@@ -116,7 +188,8 @@
 		F18181232B7EB8A100A27CE8 /* MercadoLibreTests */ = {
 			isa = PBXGroup;
 			children = (
-				F18181242B7EB8A100A27CE8 /* MercadoLibreTests.swift */,
+				F112323E2B8477A20008CD79 /* ProductsRepositoryTests.swift */,
+				F112323D2B8477A20008CD79 /* ProductsViewModelTests.swift */,
 			);
 			path = MercadoLibreTests;
 			sourceTree = "<group>";
@@ -128,6 +201,121 @@
 				F18181302B7EB8A100A27CE8 /* MercadoLibreUITestsLaunchTests.swift */,
 			);
 			path = MercadoLibreUITests;
+			sourceTree = "<group>";
+		};
+		F181813F2B7EBB1A00A27CE8 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F18181402B7EBB2A00A27CE8 /* RequestManager */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		F18181402B7EBB2A00A27CE8 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				F18181412B7EBBAB00A27CE8 /* ApiManager.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		F18181432B7EBC0E00A27CE8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F11232362B8475BD0008CD79 /* Supporting Files */,
+				F18181112B7EB89C00A27CE8 /* MercadoLibreApp.swift */,
+				F112322A2B83FB260008CD79 /* SplashView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F18181442B7EBC5700A27CE8 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				F18181452B7EBDAC00A27CE8 /* Products */,
+				F18181462B7EBDB400A27CE8 /* ProductsDetail */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		F18181452B7EBDAC00A27CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F181814D2B7EBEF100A27CE8 /* Model */,
+				F181814C2B7EBEE600A27CE8 /* View */,
+				F181814E2B7EBEF800A27CE8 /* ViewModel */,
+				F11232382B8476190008CD79 /* Repository */,
+				F11232372B84760D0008CD79 /* Factory */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		F18181462B7EBDB400A27CE8 /* ProductsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F181815C2B7EC13D00A27CE8 /* Model */,
+				F181815B2B7EC13800A27CE8 /* View */,
+			);
+			path = ProductsDetail;
+			sourceTree = "<group>";
+		};
+		F18181492B7EBEB900A27CE8 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				F181814A2B7EBECE00A27CE8 /* ProductsRowView.swift */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
+		F181814C2B7EBEE600A27CE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F18181472B7EBE9A00A27CE8 /* ProductsView.swift */,
+				F18181492B7EBEB900A27CE8 /* Row */,
+				F112322D2B8418A60008CD79 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F181814D2B7EBEF100A27CE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F181814F2B7EBF9C00A27CE8 /* MercadoLibreResponse.swift */,
+				F18181512B7EBFED00A27CE8 /* ResultResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F181814E2B7EBEF800A27CE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F18181532B7EC01E00A27CE8 /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F181815B2B7EC13800A27CE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F11232242B8304A90008CD79 /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F181815C2B7EC13D00A27CE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F19DCFB72B80358F00689AA4 /* CommonUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F19DCFB82B8035C600689AA4 /* ApiTool.swift */,
+				F112323B2B8476A80008CD79 /* Debouncer.swift */,
+			);
+			path = CommonUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +389,7 @@
 					};
 					F181811F2B7EB8A100A27CE8 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = F181810D2B7EB89C00A27CE8;
 					};
 					F18181292B7EB8A100A27CE8 = {
@@ -260,9 +449,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18181142B7EB89C00A27CE8 /* ContentView.swift in Sources */,
-				F18181162B7EB89C00A27CE8 /* Item.swift in Sources */,
+				F11232292B83F3850008CD79 /* Color+Hex.swift in Sources */,
+				F112323C2B8476A80008CD79 /* Debouncer.swift in Sources */,
+				F19DCFB92B8035C600689AA4 /* ApiTool.swift in Sources */,
+				F18181482B7EBE9A00A27CE8 /* ProductsView.swift in Sources */,
+				F11232252B8304A90008CD79 /* ProductDetailView.swift in Sources */,
+				F181814B2B7EBECE00A27CE8 /* ProductsRowView.swift in Sources */,
+				F18181422B7EBBAB00A27CE8 /* ApiManager.swift in Sources */,
+				F112322E2B8418A60008CD79 /* WebView.swift in Sources */,
+				F11232272B83F3590008CD79 /* Color.swift in Sources */,
+				F19DCFBB2B80381E00689AA4 /* ProductsFactory.swift in Sources */,
+				F18181502B7EBF9C00A27CE8 /* MercadoLibreResponse.swift in Sources */,
+				F18181522B7EBFED00A27CE8 /* ResultResponse.swift in Sources */,
+				F18181542B7EC01E00A27CE8 /* ProductsViewModel.swift in Sources */,
+				F112323A2B8476340008CD79 /* ProductsRepository.swift in Sources */,
 				F18181122B7EB89C00A27CE8 /* MercadoLibreApp.swift in Sources */,
+				F112322B2B83FB260008CD79 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +472,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18181252B7EB8A100A27CE8 /* MercadoLibreTests.swift in Sources */,
+				F112323F2B8477A20008CD79 /* ProductsViewModelTests.swift in Sources */,
+				F11232402B8477A20008CD79 /* ProductsRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,9 +632,9 @@
 				DEVELOPMENT_TEAM = A9RWBUKBC5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MercadoLibre/Main/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,9 +661,9 @@
 				DEVELOPMENT_TEAM = A9RWBUKBC5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MercadoLibre/Main/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,6 +684,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A9RWBUKBC5;
@@ -490,6 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = conan.MercadoLibreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MercadoLibre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MercadoLibre";
@@ -501,6 +706,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A9RWBUKBC5;
